@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "sammaya164トップページ"
-    url: https://sammaya164.github.io/
+  - title: "Home"
+    url: https://sammaya164.github.io/deep
+  - title: "Categories"
+    url: https://sammaya164.github.io/deep/categories.html
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
