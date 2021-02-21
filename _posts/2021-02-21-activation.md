@@ -1,6 +1,7 @@
 ---
 categories: "activation-function"
 title: "活性化関数1"
+
 ---
 
 以下は個人的なメモでして、説明用の文章ではないので、意味不明でも気にしないで下さい。
