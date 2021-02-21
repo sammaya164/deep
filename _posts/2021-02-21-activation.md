@@ -3,10 +3,6 @@ categories: "activation-function"
 title: "活性化関数1"
 ---
 
-『ゼロから作るDeep Learning』という本を勉強中です。
-
-この本で使われている言語はPythonですが、勉強のためVBScriptでの実装を試みます。
-
 以下は個人的なメモでして、説明用の文章ではないので、意味不明でも気にしないで下さい。
 
 
