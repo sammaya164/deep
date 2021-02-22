@@ -20,7 +20,7 @@ title                    : "Deep Learningの勉強"
 title_separator          : "-"
 subtitle                 : "VBScriptでAIプログラムを作ってみる。"
 name                     : "Sammaya"
-description              : "奇妙なウェブサイト。"
+description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Sammaya"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "趣味のプログラマー。"
   location         : "Japan"
   email            :
   links:
@@ -276,13 +276,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: # true
-      comments: # true
+      comments: true
       share: true
       related: true
       header:
-        image: /assets/images/architecture_1280.jpg
-        #overlay_image: /assets/images/architecture_1280.jpg
+        #image: /assets/images/architecture_1280.jpg
+        overlay_image: /assets/images/architecture_1280.jpg
         #overlay_filter: 0.5
         caption: "Image by [Free-Photos](https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=768432) from [Pixabay](https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=768432)"
-        #excerpt: "Hello!"
+        show_overlay_excerpt: false
         
