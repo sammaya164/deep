@@ -109,7 +109,7 @@ Function ToString(x)
         For i = 0 To UBound(x)
             buf(i) = ToString(x(i)) 
         Next
-        ToString = "[" & Join(buf, ", ") & "]"
+        ToString = "[" & Join(buf, ",") & "]"
     Else
         ToString = x
     End If
