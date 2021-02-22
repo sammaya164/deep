@@ -11,5 +11,4 @@ header:
       url: "https://github.com/sammaya164/deep"
 ---
 
-『ゼロから作るDeep Learning』という本を勉強中です。  
-この本で使われている言語はPythonですが、勉強のためVBScriptでの実装を試みます。
+『ゼロから作るDeep Learning』という本を勉強中です。この本で使われている言語はPythonですが、勉強のためVBScriptでの実装を試みます。
