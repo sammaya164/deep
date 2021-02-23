@@ -1,7 +1,7 @@
 ---
 categories: "activation-function"
 title: "活性化関数#1"
-excerpt: "恒等関数/ステップ関数/ReLU関数/シグモイド関数"
+excerpt: "活性化関数/恒等関数/ステップ関数/恒等関数とステップ関数をまとめる/ReLU関数/シグモイド関数"
 
 ---
 
@@ -12,12 +12,11 @@ excerpt: "恒等関数/ステップ関数/ReLU関数/シグモイド関数"
 
 活性化関数は、入力の総和をもとに、どのように発火するかを決定する。
 
-
 以下のようなものがある。
 - 恒等関数
 - ステップ関数
-- シグモイド関数
 - ReLU関数
+- シグモイド関数
 
 ## 恒等関数
 
@@ -181,7 +180,7 @@ Class C_Num
             For i = 0 To UBound(x)
                 buf(i) = ToString(x(i)) 
             Next
-            ToString = "[" & Join(buf, ", ") & "]"
+            ToString = "[" & Join(buf, ",") & "]"
         Else
             ToString = x
         End If
@@ -211,8 +210,8 @@ nb.Print nb.Activation(Array(0,0.5,1)) '>[0,1,1]
 
 Rectified Linear Unitの略。`整流された線形ユニット`の意味になる。ダイオードの電圧電流特性に似ている。
 
-ユニットが関数を意味しているのでReLU関数と書くと`整流された線形関数関数`の意味になってしまうらしいですが、ここでは気にせずReLU関数と書きます。
-{: .notice--warning}
+注: ユニットが関数を意味しているので、ReLU関数と書くと「整流された線形**関数関数**」の意味になってしまうらしいですが、ここでは気にせずReLU関数と書きます。
+{: .notice}
 
 ```vb
 Function relu_function(x)
