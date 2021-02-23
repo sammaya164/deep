@@ -284,8 +284,10 @@ defaults:
         overlay_image: /assets/images/architecture_1280.jpg
         #overlay_filter: 0.5
         caption: "Image by [Free-Photos](https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=768432) from [Pixabay](https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=768432)"
-        show_overlay_excerpt: false
+        show_overlay_excerpt: #false
         actions:
           - label: "リポジトリを表示"
             url: "https://github.com/sammaya164/deep"
+          - label: "スクリプトファイル集"
+            url: "https://github.com/sammaya164/deep/tree/master/_codes"
    
