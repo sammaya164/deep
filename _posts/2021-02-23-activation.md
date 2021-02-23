@@ -1,6 +1,7 @@
 ---
 categories: "activation-function"
-title: "活性化関数1"
+title: "活性化関数#1"
+excerpt: "恒等関数/ステップ関数/ReLU関数/シグモイド関数"
 
 ---
 
