@@ -1,6 +1,6 @@
 ---
 layout: home
-#author_profile: true
+author_profile: true
 header:
   #image: /assets/images/architecture_1280.jpg
   overlay_image: /assets/images/architecture_1280.jpg
