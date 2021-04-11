@@ -288,6 +288,6 @@ defaults:
         actions:
           - label: "リポジトリを表示"
             url: "https://github.com/sammaya164/deep"
-          #- label: "スクリプトファイル集"
-          #  url: "https://github.com/sammaya164/deep/tree/master/_codes"
+          - label: "コード置き場"
+            url: "https://github.com/sammaya164/deep/tree/master/_code"
    
